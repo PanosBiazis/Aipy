@@ -1,0 +1,94 @@
+body {
+    background-color: lightseagreen;
+    background-size: cover;
+}
+fieldset{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1000px;
+    max-height: fit-content;
+}
+
+table{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1000px;
+    max-height: fit-content;
+    position: relative;
+    bottom:100px;
+}
+
+th{
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    height: 30px;
+}
+
+td{
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+}
+.home{
+    position: relative;
+    bottom: 5px;
+}
+.nav{
+    height:50px;
+    background: black;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+}
+.home .nav .buttons{
+    position: relative;
+    text-align: right;
+}
+.home .nav .Login{
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+.home .nav .Register{
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+.nav ul{
+    position:absolute;
+    right: 5px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: white;
+    padding: 5px;
+}
+.home .nav .First_page{
+    position: relative;
+    bottom: 30px;
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 4px;
+}
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: red;
+    color: white;
+}
